@@ -52,3 +52,17 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.499);
     transition: transform .2s;
 } 
+@media (max-width: 580px) {
+
+    section#redes-sociais {
+        position: fixed;
+        right: 5px;   /* traz os botões para dentro da tela */
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    section#redes-sociais img {
+        width: 45px;  /* diminui os botões no celular */
+        margin: 10px 10px 0px 0px;
+    }
+}
